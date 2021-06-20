@@ -15,12 +15,12 @@ func main() {
 	ctx := context.Background()
 	env, err := setting.NewEnvironment()
 	if err != nil {
-		log.Error().Err(err).Msg("")
+		log.Error().AnErr("message", err).Send()
 		return
 	}
 	gdeps, closeFunc, err := inject.NewGlobalDepends(ctx, env)
 	if err != nil {
-		log.Error().Err(err).Msg("")
+		log.Error().AnErr("message", err).Send()
 		return
 	}
 	defer closeFunc()

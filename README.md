@@ -3,6 +3,7 @@
 
 ```bash
 make init
+make run-local
 ```
 
 # Deploy
