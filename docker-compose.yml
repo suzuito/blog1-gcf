@@ -1,0 +1,70 @@
+version: '3'
+services:
+  env:
+    image: "golang:1.13"
+    environment:
+      - ENV=dev
+      - GO111MODULE=on
+      - DB_HOST=postgres
+      - DB_USER=postgres
+      - DB_PASSWORD=wpsergtsop
+      - DB_NAME=geo_finder
+      - API_TOKEN=dummy
+      - FRONT_GEO_JSON_BUCKET=front
+      - SRC_RIVER_GEO_JSON_BUCKET=kurimonaca-geo
+      - SRC_RIVER_GEO_JSON_PREFIX=river1/83
+      - SRC_HIGHWAY_GEO_JSON_BUCKET=kurimonaca-geo
+      - SRC_HIGHWAY_GEO_JSON_PREFIX=
+      - GCP_PROJECT_ID=fastalert-dummy
+      - AWS_ENDPOINT=http://s3:4567
+      - AWS_ACCESS_KEY_ID=aws-key-dummy
+      - AWS_SECRET_ACCESS_KEY=aws-secret-dummy
+      - AWS_DEFAULT_REGION=ap-northeast-1
+      - AWS_REGION=ap-northeast-1
+      # pubsub emulator
+      - PUBSUB_EMULATOR_HOST=gcp:8432
+      - PUBSUB_EMULATOR_HOST=fastalert-dummy
+    working_dir: /opt/app
+    volumes:
+      - .:/opt/app
+    links:
+      - postgres:postgres
+      - gcp:gcp
+      - s3:s3
+    depends_on:
+      - postgres
+      - gcp
+      - s3
+    command: /bin/sh -c 'rm -f migrate.exe && make migrate.exe && ./migrate.exe migrate && go get -u github.com/cosmtrek/air && air -c .air.toml'
+    ports:
+      - 8080:8080
+  postgres:
+    image: 'mdillon/postgis:11-alpine'
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=wpsergtsop
+      - POSTGRES_DB=geo_finder
+    volumes:
+      - postgres:/var/lib/postgresql/data
+  gcp:
+    image: google/cloud-sdk:emulators
+    command: gcloud beta emulators pubsub start --project=fastalert-dummy
+    ports:
+      - 8085:8085 # pubsub
+  s3:
+    image: minio/minio
+    volumes:
+      - ./s3:/export
+    environment:
+      - MINIO_ACCESS_KEY=aws-key-dummy
+      - MINIO_SECRET_KEY=aws-secret-dummy
+    entrypoint:
+      - /bin/sh
+      - -c
+    ports:
+      - 9000:4567
+    command:
+      - /bin/sh -c 'minio server --address=0.0.0.0:4567 /export'
+volumes:
+  postgres:
+  s3:
