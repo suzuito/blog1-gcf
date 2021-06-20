@@ -56,10 +56,7 @@ func BlogUpdateArticle(ctx context.Context, ev GCSEvent) error {
 		return xerrors.Errorf("Cannot inject.NewContextDepends : %w", err)
 	}
 	defer closeFunc()
-	fmt.Println(ev.Name)
-	fmt.Println(env.GCPBucketArticle)
-	fmt.Println(ev.Name == env.GCPBucketArticle)
-	if ev.Name != env.GCPBucketArticle {
+	if ev.Bucket != env.GCPBucketArticle {
 		return xerrors.Errorf("Invalid backet name exp:%s != real:%s", env.GCPBucketArticle, ev.Bucket)
 	}
 	u := usecase.NewImpl(env, cdeps.DB, cdeps.Storage, gdeps.MDConverter)
