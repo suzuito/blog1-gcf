@@ -3,7 +3,7 @@ module github.com/suzuito/blog1-gcf
 go 1.16
 
 require (
-	github.com/GoogleCloudPlatform/functions-framework-go v1.2.0
+	github.com/GoogleCloudPlatform/functions-framework-go v1.3.0
 	github.com/google/subcommands v1.2.0
 	github.com/rs/zerolog v1.23.0
 	github.com/suzuito/blog1-go v0.0.7-0.20210620033714-7f7af2417e36
