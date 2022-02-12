@@ -15,3 +15,11 @@ func BlogUpdateArticle(ctx context.Context, ev gcf.GCSEvent) error {
 	}
 	return gcf.BlogUpdateArticle(ctx, meta, ev)
 }
+
+func BlogDeleteArticle(ctx context.Context, ev gcf.GCSEvent) error {
+	meta, err := metadata.FromContext(ctx)
+	if err != nil {
+		return fmt.Errorf("metadata.FromContext: %v", err)
+	}
+	return gcf.BlogDeleteArticle(ctx, meta, ev)
+}
