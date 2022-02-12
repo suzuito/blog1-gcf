@@ -1,0 +1,15 @@
+steps:
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  args:
+  - gcloud
+  - functions
+  - deploy
+  - BlogUpdateArticle
+  - --project=suzuito-${_ENV}
+  - --region=asia-northeast1
+  - --max-instances=1
+  - --timeout=60s
+  - --runtime=go116
+  - --env-vars-file=env-${_ENV}.yml
+  - --trigger-resource=suzuito-${_ENV}-blog1-article
+  - --trigger-event=google.storage.object.finalize
