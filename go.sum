@@ -277,6 +277,8 @@ github.com/suzuito/blog1-go v0.0.9-0.20220212021614-11e69478c8cc h1:Rn0sEsCBXyAr
 github.com/suzuito/blog1-go v0.0.9-0.20220212021614-11e69478c8cc/go.mod h1:mVA+6LwhyVTZqvX97OF+Ovdlc0oBp+GHMbID2hioIBU=
 github.com/suzuito/blog1-go v0.0.9-0.20220212031438-4b76316c489c h1:Gb6ROkocaDy4DCZE5OAl/p4z/Qt5kG1lFGjjJxiuOyo=
 github.com/suzuito/blog1-go v0.0.9-0.20220212031438-4b76316c489c/go.mod h1:mVA+6LwhyVTZqvX97OF+Ovdlc0oBp+GHMbID2hioIBU=
+github.com/suzuito/blog1-go v0.0.9-0.20220212033655-1e1d45e3feea h1:CdWhS3tZ2OaXuE5nhQJTJOnkrz4hGo0tD/lFFXe6+Vk=
+github.com/suzuito/blog1-go v0.0.9-0.20220212033655-1e1d45e3feea/go.mod h1:mVA+6LwhyVTZqvX97OF+Ovdlc0oBp+GHMbID2hioIBU=
 github.com/suzuito/common-env v1.1.0/go.mod h1:xBr0+Vv8CYl+qu3Cf0OICueUkCRctFP0drGbSRe+HCo=
 github.com/suzuito/common-go v0.15.1-0.20220211073048-9923b5039ad8 h1:S7llqqzSa03AVmbnXcuJBmeiw6c8Q+lISbsdXBNpnlc=
 github.com/suzuito/common-go v0.15.1-0.20220211073048-9923b5039ad8/go.mod h1:kFEhPEucqXVgeMBM3ptUctFt7rFrdJmkpGwjaHQ5K80=
