@@ -273,9 +273,12 @@ github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5Cc
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/suzuito/blog1-go v1.0.0 h1:WnEF5cSksKtbyBUqkbrVZ60DFJ0955cinGZAYzyi2DA=
 github.com/suzuito/blog1-go v1.0.0/go.mod h1:g2D6YfbtFc1WJ0v027HRxIm0AUuowqDwaYrIHJhvs5M=
+github.com/suzuito/blog1-go v1.0.1-0.20220308115201-bf8d135ea8ca h1:y8bhoq+e6o4J5EpnlfOWNEELcW8+vRqr6BvLigPclts=
+github.com/suzuito/blog1-go v1.0.1-0.20220308115201-bf8d135ea8ca/go.mod h1:eO71ArK4Nsp9XQ3usuOtrhThBKncKdGWRsHJWKzeprE=
 github.com/suzuito/common-env v1.1.0/go.mod h1:xBr0+Vv8CYl+qu3Cf0OICueUkCRctFP0drGbSRe+HCo=
 github.com/suzuito/common-go v1.0.0 h1:n5YWn7WwFA/gq9G0syGrKIqapwS5iLdTWGjg+SW0j00=
 github.com/suzuito/common-go v1.0.0/go.mod h1:kFEhPEucqXVgeMBM3ptUctFt7rFrdJmkpGwjaHQ5K80=
+github.com/suzuito/common-go v1.0.1-0.20220308114338-1cf00f2d03d9/go.mod h1:kFEhPEucqXVgeMBM3ptUctFt7rFrdJmkpGwjaHQ5K80=
 github.com/ugorji/go v1.1.7/go.mod h1:kZn38zHttfInRq0xu/PH0az30d+z6vm202qpg1oXVMw=
 github.com/ugorji/go/codec v1.1.7/go.mod h1:Ax+UKWsSmolVDwsd+7N3ZtXu+yMGCf907BLYF3GoBXY=
 github.com/yuin/goldmark v1.1.25/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=
