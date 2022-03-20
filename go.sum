@@ -277,6 +277,8 @@ github.com/suzuito/blog1-go v1.0.1-0.20220308115201-bf8d135ea8ca h1:y8bhoq+e6o4J
 github.com/suzuito/blog1-go v1.0.1-0.20220308115201-bf8d135ea8ca/go.mod h1:eO71ArK4Nsp9XQ3usuOtrhThBKncKdGWRsHJWKzeprE=
 github.com/suzuito/blog1-go v1.0.1-0.20220320031152-4000da7fa8f3 h1:jv4sppsSibr569Sdf8BNFEMzRI/uyC+8X8/HrDKnQ0k=
 github.com/suzuito/blog1-go v1.0.1-0.20220320031152-4000da7fa8f3/go.mod h1:PLyIOyssXmnTNmatr8O6HmBrHETaMxMhiomw2AaCteI=
+github.com/suzuito/blog1-go v1.0.1-0.20220320045304-098acf96bbd8 h1:9Y8Z+vKuxpJH5wYxJgylldVeODK4SRMj2sti/900wsA=
+github.com/suzuito/blog1-go v1.0.1-0.20220320045304-098acf96bbd8/go.mod h1:h9jg06wOzvMaymEmRH1XkDkJl5GZAfNMjFiitHmeV08=
 github.com/suzuito/common-env v1.1.0/go.mod h1:xBr0+Vv8CYl+qu3Cf0OICueUkCRctFP0drGbSRe+HCo=
 github.com/suzuito/common-go v1.0.0/go.mod h1:kFEhPEucqXVgeMBM3ptUctFt7rFrdJmkpGwjaHQ5K80=
 github.com/suzuito/common-go v1.0.1-0.20220308114338-1cf00f2d03d9 h1:xv23woWnBmjIYpB4rLpk6is95klbSy6XRhgxIFcacxk=
