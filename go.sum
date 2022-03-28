@@ -354,6 +354,8 @@ github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5Cc
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/suzuito/blog1-go v1.0.1-0.20220327135756-31fd73e23a77 h1:OGWDpVt2tM3rkBlRDJLSh/d4qVckPVULxhjn8yiGKy0=
 github.com/suzuito/blog1-go v1.0.1-0.20220327135756-31fd73e23a77/go.mod h1:aoZfSi/CGZV4Qtd+ynLIZWiF+NyiaxyWumVP+m4iuJw=
+github.com/suzuito/blog1-go v1.0.1-0.20220328231857-6c3464214252 h1:gKMjogk419Au4GiGrTlGJGkSVJ6Xqmo5BdFjShSUYiM=
+github.com/suzuito/blog1-go v1.0.1-0.20220328231857-6c3464214252/go.mod h1:74GF/KDG6k3NvMUGLOEVLIR81GQZ9IlyMgLojpp+3f4=
 github.com/suzuito/common-go v1.0.2-0.20220322111232-a6b166985a11/go.mod h1:a3joPL5VEdByP0Yyjm1oz8QZOIiFKmwyHmy4/e+JuAk=
 github.com/ugorji/go v1.1.7/go.mod h1:kZn38zHttfInRq0xu/PH0az30d+z6vm202qpg1oXVMw=
 github.com/ugorji/go/codec v0.0.0-20181204163529-d75b2dcb6bc8/go.mod h1:VFNgLljTbGfSG7qAOspJ7OScBnGdDN/yBr0sguwnwf0=
