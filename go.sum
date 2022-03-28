@@ -361,6 +361,8 @@ github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5Cc
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/suzuito/blog1-go v1.0.1-0.20220321140145-3b8ce22cf7ad h1:yKkKhsz32OY5ivqMtqos43FIoSifmq45G91WEoOUUPY=
 github.com/suzuito/blog1-go v1.0.1-0.20220321140145-3b8ce22cf7ad/go.mod h1:C8YUhKqgT8IsKmavNO/AJYx2afzihMIgIvxQ31oXPA4=
+github.com/suzuito/blog1-go v1.0.1-0.20220327135756-31fd73e23a77 h1:OGWDpVt2tM3rkBlRDJLSh/d4qVckPVULxhjn8yiGKy0=
+github.com/suzuito/blog1-go v1.0.1-0.20220327135756-31fd73e23a77/go.mod h1:aoZfSi/CGZV4Qtd+ynLIZWiF+NyiaxyWumVP+m4iuJw=
 github.com/suzuito/common-env v1.1.0/go.mod h1:xBr0+Vv8CYl+qu3Cf0OICueUkCRctFP0drGbSRe+HCo=
 github.com/suzuito/common-go v1.0.2-0.20220320061738-7b1ea707f240 h1:5PuxmMYrVbnW7jMhuXObaef/Byvu+XvgD/74+CVFLA4=
 github.com/suzuito/common-go v1.0.2-0.20220320061738-7b1ea707f240/go.mod h1:e8jTNQBkVZX5p8etR0wSqYLCrVAMv8+cyzA/jC/okng=
